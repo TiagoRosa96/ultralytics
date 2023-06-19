@@ -810,7 +810,7 @@ def classify_albumentations(
         augment=True,
         size=224,
         scale=(0.08, 1.0),
-        hflip=0.5,
+        hflip=0.0,
         vflip=0.0,
         hsv_h=0.015,  # image HSV-Hue augmentation (fraction)
         hsv_s=0.7,  # image HSV-Saturation augmentation (fraction)

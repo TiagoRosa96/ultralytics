@@ -809,9 +809,6 @@ def hsv2colorjitter(h, s, v):
 def classify_albumentations(
         augment=False,
         size=224,
-        scale=(0.08, 1.0),
-        hflip=0.0,
-        vflip=0.0,
         hsv_h=0.015,  # image HSV-Hue augmentation (fraction)
         hsv_s=0.7,  # image HSV-Saturation augmentation (fraction)
         hsv_v=0.4,  # image HSV-Value augmentation (fraction)

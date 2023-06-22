@@ -807,7 +807,7 @@ def hsv2colorjitter(h, s, v):
 
 
 def classify_albumentations(
-        augment=True,
+        augment=False,
         size=224,
         scale=(0.08, 1.0),
         hflip=0.0,

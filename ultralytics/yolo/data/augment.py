@@ -807,8 +807,8 @@ def hsv2colorjitter(h, s, v):
 
 
 def classify_albumentations(
-        augment=False,
-        size=224,
+        augment=True,
+        size=640,
         hflip=0.0,
         vflip=0.0,
         hsv_h=0.015,  # image HSV-Hue augmentation (fraction)

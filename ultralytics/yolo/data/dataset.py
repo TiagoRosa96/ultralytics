@@ -235,9 +235,6 @@ class ClassificationDataset(torchvision.datasets.ImageFolder):
         self.album_transforms = classify_albumentations(
             augment=augment,
             size=args.imgsz,
-            scale=(1.0 - args.scale, 1.0),  # (0.08, 1.0)
-            hflip=args.fliplr,
-            vflip=args.flipud,
             hsv_h=args.hsv_h,  # HSV-Hue augmentation (fraction)
             hsv_s=args.hsv_s,  # HSV-Saturation augmentation (fraction)
             hsv_v=args.hsv_v,  # HSV-Value augmentation (fraction)
